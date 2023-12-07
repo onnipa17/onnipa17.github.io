@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การเลือกเอลิเมนต์ด้วย compound และ combinator</title>
+    <style>
+        .myclass{
+            text-decoration: underline;
+        }
+        p.myclass{
+            font-size: 70%;
+            color: white;
+            background-color: red;
+        }
+        /* div p {
+            color: red;
+            text-decoration: underline;
+        } */
+        aside>P{
+            background-color: yellow;
+        }
+        /* h1 ~ p {
+            color: red;
+        } */
+        h2+p{
+            font-style: italic;
+            color: gray;
+        }
+        p{
+            font-style: normal;
+            color: blue;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <h1>การเลือกเอลิเมนต์ด้วย compound และ combinator</h1>
+    <p class="myclass">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus veritatis officiis quia? Enim voluptate, officiis eum maiores veniam vitae a, vel fugit molestias corporis, consequatur tempore. Tenetur ratione doloremque voluptatibus?</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, quas.</p>
+    </div>
+    <aside>
+        <p>Lorem  ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </aside>
+    <article>
+        <aside>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        </aside>
+    </article>
+    <div>
+        <h1>การปรับราคารถยนต์ในปี 2566</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div>
+            <h2>ราคารถยนต์ไฟฟ้า ปี 2566</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+    <div>
+        <article>
+            <h2>fiest Article</h2>
+            <p>fiest paragraph of your aticle</p>
+            <p>Hello css! This is good for your site</p>
+            <p>elail of your site HERE!</p>
+        </article>
+    </div>
+        <article>
+            <h2>Second Article</h2>
+            <p>fiest paragraph of your aticle</p>
+            <p>Hello css! This is good for your site</p>
+            <p>elail of your site HERE!</p>
+       </article>
+</body>
+</html>
