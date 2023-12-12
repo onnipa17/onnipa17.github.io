@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การเลือกเอลิเมนต์ด้วย Isput pseudo classe</title>
+    <style>
+        input:-webkit-autofill{
+            border: 3px solid rgb(27, 114, 19);
+        }
+        input:autofill{
+            border: 3px solid rgb(231, 201, 28);
+        }
+    </style>
+</head>
+<body>
+    <form action="post">
+        <label for="email">อีเมล์</label>
+        <input type="email" name="email" autocomplete="email">
+    </form>
+</body>
+</html>
